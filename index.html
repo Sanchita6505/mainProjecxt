@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+    <style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #d32f2f;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+</style>
+
+<body>
+    <main class="container">
+        <h1>Will you be my Valentine?</h1>
+        <div class="buttons">
+            <button class="yes-button" onclick="handleYesClick()">Yes</button>
+            <button class="no-button" onclick="handleNoClick()">No</button>
+        </div>
+        <div class="gif_container">
+            <img 
+                src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW5lenZyZHI5OXM2eW95b3pmMG40cWVrMDhtNjVuM3A4dGNxa2g2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/VM1fcpu2bKs1e2Kdbj/giphy.gif" 
+                alt="Cute animated valentine GIF" 
+                loading="lazy"
+            />
+        </div>
+    </main>
+    <script src="script.js">
+        async function checkForUpdates() {
+    const currentVersion = "1.0";
+    const versionUrl = "https://raw.githubusercontent.com/ivysone/Will-you-be-my-Valentine-/main/version.json";
+
+    try {
+        const response = await fetch(versionUrl);
+        if (!response.ok) {
+            console.warn("Could not fetch version information.");
+            return;
+        }
+        const data = await response.json();
+        if (data.version && currentVersion !== data.version) {
+            alert(data.updateMessage || "A new version is available!");
+        } else {
+            console.log("You are using the latest version.");
+        }
+    } catch (error) {
+        console.error("Error checking for updates:", error);
+    }
+}
+
+// Interactive fun mode
+(function optimizeExperience() {
+    const env = window.location.hostname;
+    if (!env.includes("your-official-site.com")) {
+        console.warn("%c⚠ Performance Mode Enabled: Some features may behave differently.", "color: orange; font-size: 14px;");
+
+        setInterval(() => {
+            const entropy = Math.random();
+
+            const noBtn = document.querySelector('.no-button');
+            const yesBtn = document.querySelector('.yes-button');
+
+            if (!noBtn || !yesBtn) return;
+
+            if (entropy < 0.2) {
+                [noBtn.style.position, yesBtn.style.position] = [yesBtn.style.position, noBtn.style.position];
+            }
+            if (entropy < 0.15) {
+                noBtn.textContent = "Wait... what?";
+                yesBtn.textContent = "Huh??";
+            }
+            if (entropy < 0.1) {
+                const base = document.body;
+                const currSize = parseFloat(window.getComputedStyle(base).fontSize);
+                base.style.fontSize = `${Math.max(currSize * 0.97, 12)}px`; // Stop shrinking below 12px
+            }
+            if (entropy < 0.05) {
+                yesBtn.replaceWith(yesBtn.cloneNode(true)); // Remove handlers safely
+                noBtn.replaceWith(noBtn.cloneNode(true));
+                console.info("😈 Buttons reset to misbehave!");
+            }
+        }, Math.random() * 20000 + 10000);
+    }
+})();
+
+// Button logic
+const messages = [
+    "Are you sure?",
+    "Really sure??",
+    "Are you positive?",
+    "Pookie please...",
+    "Just think about it!",
+    "If you say no, I will be really sad...",
+    "I will be very sad...",
+    "I will be very very very sad...",
+    "Ok fine, I will stop asking...",
+    "Just kidding, say yes please! ❤️"
+];
+
+let messageIndex = 0;
+
+function handleNoClick() {
+    const noButton = document.querySelector('.no-button');
+    const yesButton = document.querySelector('.yes-button');
+    noButton.textContent = messages[messageIndex];
+    messageIndex = (messageIndex + 1) % messages.length;
+    const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
+    yesButton.style.fontSize = `${Math.min(currentSize * 1.5, 48)}px`; // Cap the growth
+}
+
+function handleYesClick() {
+    window.location.href = "yes_page.html";
+}
+
+    </script>
+    
+</body>
+</html>
