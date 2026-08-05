@@ -1,0 +1,205 @@
+{
+  "project": "DilliBites AI Service",
+  "version": "1.0.0",
+  "architecture": "Python FastAPI Microservice",
+  "features": [
+    {
+      "id": "F001",
+      "name": "Project Bootstrap",
+      "priority": 1,
+      "dependsOn": [],
+      "goal": "Create production-ready FastAPI project structure.",
+      "deliverables": [
+        "Folder structure",
+        "Virtual environment configuration",
+        "requirements.txt",
+        "configuration module",
+        "logging",
+        "health endpoint",
+        "application startup"
+      ]
+    },
+    {
+      "id": "F002",
+      "name": "Configuration & Environment",
+      "priority": 1,
+      "dependsOn": ["F001"],
+      "goal": "Implement centralized configuration.",
+      "deliverables": [
+        ".env support",
+        "Pydantic settings",
+        "environment validation",
+        "constants"
+      ]
+    },
+    {
+      "id": "F003",
+      "name": "API Foundation",
+      "priority": 1,
+      "dependsOn": ["F002"],
+      "goal": "Create common API infrastructure.",
+      "deliverables": [
+        "response model",
+        "exception handlers",
+        "request validation",
+        "API versioning"
+      ]
+    },
+    {
+      "id": "F004",
+      "name": "Rate Limiter",
+      "priority": 1,
+      "dependsOn": ["F003"],
+      "goal": "Protect APIs using SlowAPI.",
+      "deliverables": [
+        "global limiter",
+        "endpoint limits",
+        "429 handler"
+      ]
+    },
+    {
+      "id": "F005",
+      "name": "Database Layer",
+      "priority": 2,
+      "dependsOn": ["F003"],
+      "goal": "Read vendor and review data from PostgreSQL.",
+      "deliverables": [
+        "database connection",
+        "repository pattern",
+        "review repository",
+        "vendor repository"
+      ]
+    },
+    {
+      "id": "F006",
+      "name": "ChromaDB Integration",
+      "priority": 2,
+      "dependsOn": ["F005"],
+      "goal": "Create vector database abstraction.",
+      "deliverables": [
+        "collection manager",
+        "upsert",
+        "delete",
+        "search"
+      ]
+    },
+    {
+      "id": "F007",
+      "name": "Embedding Service",
+      "priority": 2,
+      "dependsOn": ["F006"],
+      "goal": "Generate and store embeddings.",
+      "deliverables": [
+        "embedding generator",
+        "embedding API",
+        "rebuild endpoint"
+      ]
+    },
+    {
+      "id": "F008",
+      "name": "Semantic Search",
+      "priority": 3,
+      "dependsOn": ["F007"],
+      "goal": "Retrieve similar reviews using vector search.",
+      "deliverables": [
+        "query embedding",
+        "vector search",
+        "metadata filtering"
+      ]
+    },
+    {
+      "id": "F009",
+      "name": "Location Context",
+      "priority": 3,
+      "dependsOn": ["F008"],
+      "goal": "Inject user location into search results.",
+      "deliverables": [
+        "location schema",
+        "distance calculation",
+        "location ranking"
+      ]
+    },
+    {
+      "id": "F010",
+      "name": "Recommendation Engine",
+      "priority": 3,
+      "dependsOn": ["F009"],
+      "goal": "Rank vendors using deterministic scoring.",
+      "deliverables": [
+        "ranking formula",
+        "recommendation endpoint"
+      ]
+    },
+    {
+      "id": "F011",
+      "name": "Groq Integration",
+      "priority": 4,
+      "dependsOn": ["F003"],
+      "goal": "Implement Groq client.",
+      "deliverables": [
+        "client",
+        "retry logic",
+        "timeout handling"
+      ]
+    },
+    {
+      "id": "F012",
+      "name": "Ollama Integration",
+      "priority": 4,
+      "dependsOn": ["F011"],
+      "goal": "Implement fallback LLM.",
+      "deliverables": [
+        "ollama client",
+        "health check"
+      ]
+    },
+    {
+      "id": "F013",
+      "name": "LLM Router",
+      "priority": 4,
+      "dependsOn": ["F011", "F012"],
+      "goal": "Route requests between deterministic logic, Groq and Ollama.",
+      "deliverables": [
+        "routing rules",
+        "fallback mechanism"
+      ]
+    },
+    {
+      "id": "F014",
+      "name": "RAG Pipeline",
+      "priority": 5,
+      "dependsOn": ["F013", "F008"],
+      "goal": "Generate grounded responses.",
+      "deliverables": [
+        "context builder",
+        "prompt builder",
+        "chat endpoint"
+      ]
+    },
+    {
+      "id": "F015",
+      "name": "Review Summarization",
+      "priority": 5,
+      "dependsOn": ["F013"],
+      "goal": "Summarize reviews using LLM.",
+      "deliverables": [
+        "summary endpoint"
+      ]
+    },
+    {
+      "id": "F016",
+      "name": "Documentation",
+      "priority": 6,
+      "dependsOn": [
+        "F014",
+        "F015"
+      ],
+      "goal": "Finalize project documentation.",
+      "deliverables": [
+        "README",
+        "API documentation",
+        "deployment guide"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+/ai-service/.chroma/
+/ai-service/.venv/
+/ai-service/.pytest_cache/
+/ai-service/.mypy_cache/
+/ai-service/.ruff_cache/
+/ai-service/.coverage
+/ai-service/.coverage.*
+/ai-service/htmlcov/
+/ai-service/.env
+/ai-service/.env.*
+/ai-service/**/__pycache__/
+/ai-service/**/*.py[cod]
+/ai-service/**/*.pyo
+/ai-service/*.egg-info/
+/ai-service/dist/
+/ai-service/build/
+/ai-service/.DS_Store
