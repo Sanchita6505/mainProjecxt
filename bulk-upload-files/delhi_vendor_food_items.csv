@@ -1,0 +1,376 @@
+vendorId,name,price,description,categoryId,isVeg,isAvailable
+1,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+1,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+1,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+1,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+1,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+2,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+2,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+2,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+2,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+2,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+3,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+3,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+3,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+3,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+3,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+4,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+4,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+4,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+4,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+4,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+5,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+5,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+5,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,True
+5,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+5,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+6,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+6,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,False
+6,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+6,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+6,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+7,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+7,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+7,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+7,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,False
+7,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+8,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,False
+8,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+8,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+8,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+8,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+9,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+9,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+9,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+9,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+9,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+10,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+10,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+10,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+10,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+10,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+11,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+11,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+11,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,True
+11,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+11,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+12,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,False
+12,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,True
+12,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+12,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+12,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+13,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+13,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+13,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+13,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+13,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+14,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+14,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+14,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+14,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+14,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+15,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+15,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+15,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+15,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+15,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+16,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+16,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+16,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+16,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+16,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+17,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+17,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+17,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,True
+17,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+17,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+18,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+18,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,True
+18,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+18,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+18,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+19,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+19,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+19,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+19,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+19,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+20,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+20,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+20,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+20,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+20,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+21,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+21,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+21,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+21,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+21,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+22,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+22,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+22,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+22,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+22,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+23,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+23,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,False
+23,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,True
+23,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+23,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+24,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+24,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,True
+24,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+24,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+24,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+25,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+25,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+25,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+25,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+25,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+26,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+26,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+26,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+26,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+26,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+27,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+27,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+27,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+27,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+27,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+28,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+28,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+28,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+28,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+28,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+29,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+29,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+29,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,True
+29,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+29,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+30,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+30,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,True
+30,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+30,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+30,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+31,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+31,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+31,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+31,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+31,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+32,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,False
+32,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+32,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+32,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+32,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+33,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+33,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+33,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+33,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+33,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+34,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+34,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+34,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+34,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+34,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+35,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+35,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+35,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,True
+35,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+35,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,False
+36,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+36,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,True
+36,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+36,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+36,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+37,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+37,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+37,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+37,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+37,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+38,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,False
+38,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+38,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+38,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+38,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+39,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+39,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+39,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+39,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+39,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+40,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+40,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+40,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+40,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+40,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+41,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+41,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+41,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,False
+41,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+41,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+42,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+42,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,True
+42,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+42,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+42,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+43,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+43,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+43,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+43,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+43,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+44,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+44,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+44,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+44,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+44,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+45,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+45,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+45,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+45,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+45,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+46,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+46,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,False
+46,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+46,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+46,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+47,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+47,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+47,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,True
+47,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+47,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+48,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+48,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,True
+48,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+48,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+48,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+49,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+49,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+49,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+49,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+49,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+50,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+50,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+50,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+50,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+50,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+51,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+51,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+51,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+51,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+51,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+52,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+52,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+52,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+52,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+52,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+53,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+53,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+53,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,True
+53,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+53,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+54,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+54,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,True
+54,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+54,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+54,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+55,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+55,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+55,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+55,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+55,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,False
+56,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+56,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+56,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+56,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+56,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,False
+57,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+57,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+57,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+57,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+57,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+58,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+58,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+58,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+58,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+58,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+59,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+59,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+59,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,True
+59,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+59,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+60,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+60,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,True
+60,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+60,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+60,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+61,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+61,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+61,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+61,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+61,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+62,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+62,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,False
+62,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+62,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+62,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+63,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+63,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+63,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+63,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+63,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+64,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+64,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+64,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,True
+64,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+64,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,False
+65,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+65,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+65,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,True
+65,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+65,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+66,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+66,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,True
+66,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+66,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+66,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+67,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+67,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+67,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+67,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+67,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+68,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+68,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+68,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,False
+68,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+68,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+69,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+69,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+69,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+69,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+69,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True
+70,Chicken Biryani,280,Our signature chicken biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+70,Mutton Biryani,360,Our signature mutton biryani prepared fresh using quality ingredients and authentic flavors.,6,False,True
+70,Veg Biryani,220,Our signature veg biryani prepared fresh using quality ingredients and authentic flavors.,6,True,False
+70,Raita,40,Our signature raita prepared fresh using quality ingredients and authentic flavors.,6,True,True
+70,Double Ka Meetha,120,Our signature double ka meetha prepared fresh using quality ingredients and authentic flavors.,6,True,True
+71,Hakka Noodles,180,Our signature hakka noodles prepared fresh using quality ingredients and authentic flavors.,4,True,True
+71,Chilli Paneer,220,Our signature chilli paneer prepared fresh using quality ingredients and authentic flavors.,4,True,True
+71,Fried Rice,170,Our signature fried rice prepared fresh using quality ingredients and authentic flavors.,4,True,False
+71,Manchurian,210,Our signature manchurian prepared fresh using quality ingredients and authentic flavors.,4,True,True
+71,Spring Rolls,160,Our signature spring rolls prepared fresh using quality ingredients and authentic flavors.,4,True,True
+72,Kulfi,80,Our signature kulfi prepared fresh using quality ingredients and authentic flavors.,8,True,True
+72,Falooda,140,Our signature falooda prepared fresh using quality ingredients and authentic flavors.,8,True,False
+72,Rabri,120,Our signature rabri prepared fresh using quality ingredients and authentic flavors.,8,True,True
+72,Gulab Jamun,60,Our signature gulab jamun prepared fresh using quality ingredients and authentic flavors.,8,True,True
+72,Rasmalai,90,Our signature rasmalai prepared fresh using quality ingredients and authentic flavors.,8,True,True
+73,Papdi Chaat,120,Our signature papdi chaat prepared fresh using quality ingredients and authentic flavors.,5,True,True
+73,Dahi Bhalla,100,Our signature dahi bhalla prepared fresh using quality ingredients and authentic flavors.,5,True,True
+73,Aloo Tikki,90,Our signature aloo tikki prepared fresh using quality ingredients and authentic flavors.,5,True,True
+73,Pani Puri,60,Our signature pani puri prepared fresh using quality ingredients and authentic flavors.,5,True,True
+73,Raj Kachori,140,Our signature raj kachori prepared fresh using quality ingredients and authentic flavors.,5,True,True
+74,Butter Chicken,320,Our signature butter chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+74,Tandoori Chicken,380,Our signature tandoori chicken prepared fresh using quality ingredients and authentic flavors.,3,False,True
+74,Paneer Butter Masala,260,Our signature paneer butter masala prepared fresh using quality ingredients and authentic flavors.,3,True,True
+74,Dal Makhani,220,Our signature dal makhani prepared fresh using quality ingredients and authentic flavors.,3,True,True
+74,Butter Naan,50,Our signature butter naan prepared fresh using quality ingredients and authentic flavors.,3,True,True
+75,Masala Dosa,140,Our signature masala dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+75,Idli Sambar,90,Our signature idli sambar prepared fresh using quality ingredients and authentic flavors.,2,True,True
+75,Medu Vada,100,Our signature medu vada prepared fresh using quality ingredients and authentic flavors.,2,True,True
+75,Plain Dosa,110,Our signature plain dosa prepared fresh using quality ingredients and authentic flavors.,2,True,True
+75,Filter Coffee,60,Our signature filter coffee prepared fresh using quality ingredients and authentic flavors.,2,True,True

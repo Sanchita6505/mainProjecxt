@@ -1,0 +1,137 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  CUSTOMER
+  VENDOR
+  ADMIN
+}
+
+model User {
+  id           Int       @id @default(autoincrement())
+  name         String
+  email        String    @unique
+  passwordHash String    @map("password_hash")
+  role         Role      @default(CUSTOMER)
+  avatarUrl    String?   @map("avatar_url")
+  city         String?
+  latitude     Float?
+  longitude    Float?
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime  @updatedAt @map("updated_at")
+  deletedAt    DateTime? @map("deleted_at")
+
+  vendors   Vendor[]
+  reviews   Review[]
+  favorites Favorite[]
+
+  @@map("users")
+}
+
+model Category {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  slug      String   @unique
+  createdAt DateTime @default(now()) @map("created_at")
+
+  vendors VendorCategory[]
+  foods   Food[]
+
+  @@map("categories")
+}
+
+model Vendor {
+  id          Int       @id @default(autoincrement())
+  ownerId     Int       @map("owner_id")
+  name        String
+  description String?
+  imageUrl    String?   @map("image_url")
+  city        String
+  address     String?
+  latitude    Float?
+  longitude   Float?
+  phone       String?
+  openingTime String?   @map("opening_time")
+  closingTime String?   @map("closing_time")
+  isActive    Boolean   @default(true) @map("is_active")
+  avgRating   Float     @default(0) @map("avg_rating")
+  reviewCount Int       @default(0) @map("review_count")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+  deletedAt   DateTime? @map("deleted_at")
+
+  owner      User             @relation(fields: [ownerId], references: [id])
+  categories VendorCategory[]
+  foods      Food[]
+  reviews    Review[]
+  favorites  Favorite[]
+
+  @@map("vendors")
+}
+
+model VendorCategory {
+  vendorId   Int @map("vendor_id")
+  categoryId Int @map("category_id")
+
+  vendor   Vendor   @relation(fields: [vendorId], references: [id])
+  category Category @relation(fields: [categoryId], references: [id])
+
+  @@id([vendorId, categoryId])
+  @@map("vendor_categories")
+}
+
+model Food {
+  id          Int       @id @default(autoincrement())
+  vendorId    Int       @map("vendor_id")
+  categoryId  Int?      @map("category_id")
+  name        String
+  description String?
+  price       Float
+  imageUrl    String?   @map("image_url")
+  isAvailable Boolean   @default(true) @map("is_available")
+  isVeg       Boolean   @default(true) @map("is_veg")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+  deletedAt   DateTime? @map("deleted_at")
+
+  vendor   Vendor    @relation(fields: [vendorId], references: [id])
+  category Category? @relation(fields: [categoryId], references: [id])
+
+  @@map("foods")
+}
+
+model Review {
+  id          Int       @id @default(autoincrement())
+  userId      Int       @map("user_id")
+  vendorId    Int       @map("vendor_id")
+  rating      Int
+  text        String?
+  embeddingId String?   @map("embedding_id")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @updatedAt @map("updated_at")
+  deletedAt   DateTime? @map("deleted_at")
+
+  user   User   @relation(fields: [userId], references: [id])
+  vendor Vendor @relation(fields: [vendorId], references: [id])
+
+  @@unique([userId, vendorId])
+  @@map("reviews")
+}
+
+model Favorite {
+  userId    Int      @map("user_id")
+  vendorId  Int      @map("vendor_id")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user   User   @relation(fields: [userId], references: [id])
+  vendor Vendor @relation(fields: [vendorId], references: [id])
+
+  @@id([userId, vendorId])
+  @@map("favorites")
+}
