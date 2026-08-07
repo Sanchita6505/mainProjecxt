@@ -35,8 +35,9 @@ class BulkImportResponse(APIModel):
 
 
 class SingleReviewCreateRequest(APIModel):
+    review_id: int = Field(ge=1)
     vendor_id: int = Field(ge=1)
-    review_text: str = Field(min_length=1)
+    text: str = Field(min_length=1)
     rating: Optional[float] = None
     review_date: Optional[str] = None
     user_id: Optional[int] = None
@@ -48,3 +49,4 @@ class SingleReviewCreateResponse(APIModel):
     inserted_reviews: int = Field(ge=0)
     embedded_reviews: int = Field(ge=0)
     skipped_reviews: int = Field(ge=0)
+    embedding_id: Optional[str] = None

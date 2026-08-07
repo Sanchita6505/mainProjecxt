@@ -90,8 +90,9 @@ async def create_single_review(
     collection_name = payload.collection_name or settings.chroma_collection_name
     result = await service.create_single_review(
         session=session,
+        review_id=payload.review_id,
         vendor_id=payload.vendor_id,
-        review_text=payload.review_text,
+        text=payload.text,
         rating=payload.rating,
         review_date=payload.review_date,
         user_id=payload.user_id,
@@ -103,5 +104,6 @@ async def create_single_review(
             inserted_reviews=result.processed_reviews,
             embedded_reviews=result.embedded_reviews,
             skipped_reviews=result.skipped_reviews,
+            embedding_id=result.embedding_id,
         )
     )

@@ -19,6 +19,7 @@ class RebuildResult:
     processed_reviews: int
     embedded_reviews: int
     skipped_reviews: int
+    embedding_id: Optional[str] = None
 
 
 class EmbeddingService:
@@ -122,54 +123,37 @@ class EmbeddingService:
         self,
         *,
         session: AsyncSession,
+        review_id: int,
         vendor_id: int,
-        review_text: str,
+        text: str,
         rating: Optional[float],
         review_date: Optional[str],
         user_id: Optional[int],
         collection_name: str,
     ) -> RebuildResult:
         review_date_value = self._coerce_date(review_date)
-        review_result = await session.execute(
-            text(
-                """
-                INSERT INTO reviews (vendor_id, user_id, rating, review_text, review_date)
-                VALUES (:vendor_id, :user_id, :rating, :review_text, :review_date)
-                RETURNING id
-                """
-            ),
-            {
-                "vendor_id": vendor_id,
-                "user_id": user_id,
-                "rating": self._coerce_float(rating),
-                "review_text": review_text.strip(),
-                "review_date": review_date_value,
-            },
-        )
-        inserted_id = review_result.scalar_one_or_none()
-        if inserted_id is None:
-            return RebuildResult(collection_name=collection_name, processed_reviews=0, embedded_reviews=0, skipped_reviews=1)
+        normalized = text.strip()
 
-        embedding = self.generate_embedding(review_text)
-        metadata = {"review_id": inserted_id, "vendor_id": vendor_id}
+        embedding = self.generate_embedding(normalized)
+        metadata: Dict[str, object] = {"review_id": review_id, "vendor_id": vendor_id}
         if rating is not None:
             metadata["rating"] = float(rating)
         if review_date_value is not None:
             metadata["review_date"] = review_date_value.isoformat()
 
+        record_id = f"review:{review_id}"
         self._collection_manager.upsert(
             [
                 VectorRecord(
-                    record_id=f"review:{inserted_id}",
+                    record_id=record_id,
                     embedding=embedding,
-                    document=review_text.strip(),
+                    document=normalized,
                     metadata=metadata,
                 )
             ],
             collection_name=collection_name,
         )
-        await session.commit()
-        return RebuildResult(collection_name=collection_name, processed_reviews=1, embedded_reviews=1, skipped_reviews=0)
+        return RebuildResult(collection_name=collection_name, processed_reviews=1, embedded_reviews=1, skipped_reviews=0, embedding_id=record_id)
 
     async def rebuild_embeddings(
         self,
