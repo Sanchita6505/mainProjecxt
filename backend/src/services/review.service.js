@@ -3,6 +3,11 @@ const vendorRepo = require('../repositories/vendor.repository');
 const aiService = require('../integrations/ai/aiService');
 const { NotFoundError, AuthorizationError, ConflictError } = require('../common/errors');
 
+const listByVendor = async (vendorId) => {
+  const reviews = await reviewRepo.findByVendor(vendorId);
+  return reviews;
+};
+
 const getById = async (reviewId) => {
   const review = await reviewRepo.findById(parseInt(reviewId));
   if (!review) throw new NotFoundError('Review not found');
@@ -51,4 +56,4 @@ const remove = async (reviewId, userId, userRole) => {
   await vendorRepo.updateRating(review.vendorId, stats._avg.rating ?? 0, stats._count.id);
 };
 
-module.exports = { getById, create, update, remove };
+module.exports = { listByVendor, getById, create, update, remove };

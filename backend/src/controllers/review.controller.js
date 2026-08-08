@@ -1,6 +1,16 @@
 const reviewService = require('../services/review.service');
 const { success, created, noContent } = require('../common/response');
 
+const listByVendor = async (req, res, next) => {
+  try {
+    const { vendorId } = req.query;
+    const reviews = await reviewService.listByVendor(parseInt(vendorId));
+    return success(res, reviews);
+  } catch (err) {
+    return next(err);
+  }
+};
+
 const getById = async (req, res, next) => {
   try {
     const review = await reviewService.getById(req.validated.params.reviewId);
@@ -42,4 +52,4 @@ const remove = async (req, res, next) => {
   }
 };
 
-module.exports = { getById, create, update, remove };
+module.exports = { listByVendor, getById, create, update, remove };

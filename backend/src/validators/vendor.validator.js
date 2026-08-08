@@ -31,6 +31,7 @@ const list = z.object({
     minRating: z.string().optional(),
     sort: z.enum(['rating', 'createdAt', 'name']).optional(),
     order: z.enum(['asc', 'desc']).optional(),
+    ownerId: z.string().regex(/^\d+$/).optional(),
   }),
 });
 

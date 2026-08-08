@@ -53,10 +53,15 @@ const chat = async (userId, message, location) => {
       { query: message, location: location || null },
       { timeout: TIMEOUTS.chat }
     );
-    return data;
+    // Normalize response format: ensure both response and context fields exist
+    return {
+      response: data.response || data.reply || 'Unable to process your request.',
+      context: data.context || [],
+    };
   } catch (err) {
     return handleAIError(err, {
-      reply: 'AI assistant is currently unavailable. Please try again later.',
+      response: 'AI assistant is currently unavailable. Please try again later.',
+      context: [],
     });
   }
 };

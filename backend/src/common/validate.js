@@ -11,7 +11,12 @@ const validate = (schema) => (req, res, next) => {
     const errors = result.error.errors.map((e) => ({
       field: e.path.join('.'),
       message: e.message,
+      code: e.code,
     }));
+    // Log validation errors for debugging
+    if (process.env.NODE_ENV !== 'production') {
+      console.error('Validation Error:', { errors, body: req.body, query: req.query });
+    }
     return next(new ValidationError('Validation failed', errors));
   }
 

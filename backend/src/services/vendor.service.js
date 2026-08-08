@@ -9,6 +9,7 @@ const buildWhere = (query) => {
   if (query.category) {
     where.categories = { some: { category: { slug: query.category } } };
   }
+  if (query.ownerId) where.ownerId = parseInt(query.ownerId);
   return where;
 };
 

@@ -9,6 +9,7 @@ const router = Router();
 
 const reviewLimiter = rateLimit({ windowMs: 60_000, max: 30 });
 
+router.get('/', controller.listByVendor);
 router.get('/:reviewId', validate(v.idParam), controller.getById);
 router.post('/', authenticate, reviewLimiter, validate(v.create), controller.create);
 router.put('/:reviewId', authenticate, validate(v.update), controller.update);

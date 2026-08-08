@@ -1,6 +1,7 @@
 from typing import Optional
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
+from pydantic import Field
 
 from app.config.settings import Settings, get_settings
 from app.schemas.api import APIModel, APIResponse
@@ -12,8 +13,8 @@ router = APIRouter(prefix="/rag", tags=["rag"])
 
 
 class RAGRequest(APIModel):
-    query: str
-    top_k: int = 3
+    query: str = Field(min_length=1, max_length=500)
+    top_k: int = Field(default=3, ge=1, le=20)
     location: Optional[UserLocation] = None
     collection_name: Optional[str] = None
 
@@ -24,10 +25,13 @@ def rag_chat(
     settings: Settings = Depends(get_settings),
     search_service: SemanticSearchService = Depends(get_semantic_search_service),
 ) -> APIResponse[dict]:
+    allowed_collection = settings.chroma_collection_name
+    if payload.collection_name is not None and payload.collection_name != allowed_collection:
+        raise HTTPException(status_code=400, detail="Invalid collection_name.")
     search_results = search_service.search(
         query=payload.query,
         top_k=payload.top_k,
-        collection_name=payload.collection_name or settings.chroma_collection_name,
+        collection_name=allowed_collection,
         filters=None,
         location=payload.location,
     )

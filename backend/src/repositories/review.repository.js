@@ -13,6 +13,19 @@ const findByVendor = (vendorId) =>
     orderBy: { createdAt: 'desc' },
   });
 
+const findAll = ({ skip, take, where = {} }) =>
+  prisma.$transaction([
+    prisma.review.findMany({
+      skip, take,
+      where: { ...where, deletedAt: null },
+      include: {
+        user: { select: { id: true, name: true } },
+        vendor: { select: { id: true, name: true } },
+      },
+      orderBy: { createdAt: 'desc' },
+    }),
+    prisma.review.count({ where: { ...where, deletedAt: null } }),
+  ]);
 const findByUserAndVendor = (userId, vendorId) =>
   prisma.review.findFirst({ where: { userId, vendorId, deletedAt: null } });
 
@@ -36,6 +49,7 @@ module.exports = {
   findById,
   findByVendor,
   findByUserAndVendor,
+  findAll,
   create,
   update,
   softDelete,
