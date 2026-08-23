@@ -39,7 +39,7 @@ export default function ProfilePage() {
     }
   }
 
-  if (!ready) return null;
+  if (!ready || !user) return null;
 
   return (
     <div className="flex flex-col min-h-screen">
